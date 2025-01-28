@@ -1,4 +1,7 @@
-OverviewThis project analyzes GDP growth rates, population, and investment data for three countries: Nigeria, India, and the United Kingdom. The data spans from 1990 to 2028 and is sourced from an Excel file. The analysis involves filtering, calculating growth rates, and visualizing the trends for these countries.
+Overview 
+
+This project analyzes GDP growth rates, population, and investment data for three countries: Nigeria, India, and the United Kingdom. The data spans from 1990 to 2028 and is sourced from an Excel file. The analysis involves filtering, calculating growth rates, and visualizing the trends for these countries.
+
 PrerequisitesLibraries Used:
 pandas: For data manipulation.
 numpy: For numerical computations.
@@ -26,11 +29,15 @@ gdp_growth_rate_1990_2028.xlsx
 3. Visualizations
 
 a. GDP Growth Rate for Individual CountriesPlots year-over-year GDP growth rates for Nigeria, India, and the UK.
+
 b. Combined Graph for All CountriesDisplays a single plot comparing GDP growth rates of the three countries.
+
 c. Period-Specific Growth Analysis (Nigeria)Analyzes average GDP growth rates for:
+
 Pre-1991
 1991–2007
 2008 onward
+
 d. Population and Investment TrendsGraphs population and total investment data for Nigeria, India, and the UK over the years.
 UsageClone or download the project files.
 Update the file paths in the code to match your directory structure.
@@ -44,7 +51,10 @@ Population and investment trend graphs.
 
 Key Insights This project provides insights into:
 Comparative GDP growth rates for Nigeria, India, and the UK.
+
 Period-specific growth trends for Nigeria.
+
 Population and investment trends over the years.
-NoteEnsure the input data columns align with the expected format. Use the print(df.columns.tolist()) command to verify column names before running the analysis.
+
+ 
 
